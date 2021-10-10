@@ -1,3 +1,6 @@
+use yew::prelude::*;
+use yew::html::Scope;
+
 fn main() {
-    println!("Hello, world!");
+    wasm_logger::init(wasm_logger::Config::new(log::Level::Trace));
 }
