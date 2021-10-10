@@ -1,9 +1,10 @@
 name: Deploy to GitHub Pages
 
 on:
+  workflow_dispatch:
+    branches: [ master ]
   push:
-    branches:
-    - master
+    branches: [ master ]
 
 jobs:
   deploy:
